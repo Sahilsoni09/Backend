@@ -4,7 +4,7 @@
   "description": "Learning Backend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "Backend",
@@ -13,5 +13,8 @@
     "Express"
   ],
   "author": "Sahil Soni",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
